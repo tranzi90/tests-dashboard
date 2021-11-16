@@ -1,0 +1,11 @@
+html,
+body,
+.container,
+.container__inner,
+#root {
+    height: 100%;
+}
+
+body {
+    background-color: var(--color--bg-main);
+}

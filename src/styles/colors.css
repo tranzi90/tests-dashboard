@@ -1,0 +1,22 @@
+:root {
+    /* text colors */
+    --color--txt-black-primary: #222222;
+    --color--txt-black-secondary: #474747;
+    --color--txt-gray-primary: #5C5C5C;
+    --color--txt-gray-secondary: #999999;
+    --color--txt-gray-third: #D1D1D1;
+    --color--txt-white: #FFFFFF;
+    /* status colors */
+    --color--status-online: #1BDA9D;
+    --color--status-paused: #FF8346;
+    --color--status-draft: #5C5C5C;
+    --color--status-stopped: #FE4848;
+    /* bg colors */
+    --color--bg-main: #FAFAFA;
+    --color--bg-white: #FFFFFF;
+    /* stroke colors */
+    --color--stroke-main: #EBEBEB;
+    /* button colors */
+    --color--btn-green: #2EE5AC;
+    --color--btn-gray: #7D7D7D;
+}
