@@ -1,0 +1,33 @@
+.tests__header {
+    font-family: RobotoMedium, sans-serif;
+    font-size: 11px;
+    line-height: 13px;
+    color: var(--color--txt-gray-secondary);
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.sort {
+    position: relative;
+    cursor: pointer;
+}
+
+.sort__active:after {
+    position: absolute;
+    content: '';
+    width: 7px;
+    height: 4px;
+    background-image: url("/sort.svg");
+    top: 50%;
+    margin-left: 8px;
+}
+
+.sort__active_asc:after {
+    transform: translateY(-50%);
+    rotate: 0;
+}
+
+.sort__active_desc:after {
+    transform: translateY(50%);
+    rotate: -180deg;
+}

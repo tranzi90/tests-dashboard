@@ -1,6 +1,6 @@
 import React from "react";
 import {NormalizedTest} from "../../data/types";
-import Tests from "../Tests";
+import Tests from "../tests/Tests";
 import Button from "../button/Button";
 import {ButtonColors} from "../button/Button";
 import './SearchResult.css';

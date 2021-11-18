@@ -1,0 +1,32 @@
+.list {
+    list-style-type: none;
+    display: grid;
+    row-gap: 5px;
+}
+
+.tests__wrapper {
+    display: grid;
+    grid-template-columns: 389px 100px 62px auto;
+    column-gap: 25px;
+    align-items: center;
+}
+
+.tests__wrapper > *:last-child {
+    margin-left: 29px;
+}
+
+.test__status_stopped {
+    color: var(--color--status-stopped);
+}
+
+.test__status_draft {
+    color: var(--color--status-draft);
+}
+
+.test__status_paused {
+    color: var(--color--status-paused);
+}
+
+.test__status_online {
+    color: var(--color--status-online);
+}
