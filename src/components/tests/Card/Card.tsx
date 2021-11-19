@@ -4,7 +4,7 @@ import Button from "../../button/Button";
 import {ButtonColors} from "../../button/Button";
 import {useHistory} from "react-router-dom";
 import './Card.css'
-import paths from "../../../config/paths";
+import paths from "../../../router/paths";
 
 export interface CardProps {
   data: NormalizedTest,
