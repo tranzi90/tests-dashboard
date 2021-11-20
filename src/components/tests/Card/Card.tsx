@@ -1,4 +1,3 @@
-import React from "react";
 import {NormalizedTest, Status} from "../../../data/types";
 import Button from "../../button/Button";
 import {ButtonColors} from "../../button/Button";
