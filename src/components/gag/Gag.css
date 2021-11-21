@@ -1,0 +1,38 @@
+.gag {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    padding: 4px 0 44px 0;
+    height: 90%;
+}
+
+.gag__text {
+    font-family: MontserratSemiBold, sans-serif;
+    color: var(--color--txt-black-primary);
+    font-size: 14px;
+    line-height: 17px;
+    text-align: start;
+}
+
+.gag__back {
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: inherit;
+}
+
+.back__arrow {
+    width: 16px;
+    height: 9px;
+    transform: rotate(-90deg);
+    margin-right: 19px;
+}
+
+.back__text {
+    font-family: Nunito, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
