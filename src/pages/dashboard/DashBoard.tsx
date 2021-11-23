@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from "react";
-import Input from "../../Components/Input";
-import SearchResult from "../../Components/SearchResult";
-import Tests from "../../Components/Tests";
-import {Data, NormalizedTest} from "../../Data/types";
-import DataService, {DataServiceErrors} from "../../Data/DataService";
+import Input from "../../components/input/Input";
+import SearchResult from "../../components/searchResult/SearchResult";
+import Tests from "../../components/tests/Tests";
+import {Data, NormalizedTest} from "../../data/types";
+import DataService, {DataServiceErrors} from "../../data/DataService";
 import './dashboard.css';
-import Header from "../../Components/Header";
+import Header from "../../components/header/Header";
 
 const DashBoard = () => {
   const [searchInput, setSearchInput] = useState<string>('');
