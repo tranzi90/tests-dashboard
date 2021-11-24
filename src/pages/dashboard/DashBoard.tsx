@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import Input from "../../components/input/Input";
 import SearchResult from "../../components/searchResult/SearchResult";
 import Tests from "../../components/tests/Tests";

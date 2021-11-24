@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import {useState} from "react";
 import TestsHeader from "./TestsHeader/TestsHeader";
 import {NormalizedTest, Status} from "../../data/types";
 import Card from "./Card/Card";
