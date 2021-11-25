@@ -4,8 +4,8 @@
 // GET     /tests/[id]           Get a test by id
 
 const api = {
-  sites: '/sites',
-  tests: '/tests'
+    sites: '/sites',
+    tests: '/tests'
 };
 
 export default api;
